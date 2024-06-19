@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
 
 public class DataManager : MonoBehaviour
 {
@@ -6,6 +8,9 @@ public class DataManager : MonoBehaviour
     public int money = 0;
     public int upgrade = 1;
     public int helperNum = 0;
+
+    [Header("Photo")]
+    public List<Image> images;
 
     private static DataManager _instance;
     public static DataManager Instance
