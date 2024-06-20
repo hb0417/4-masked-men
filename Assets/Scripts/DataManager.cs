@@ -3,7 +3,7 @@
 public class DataManager : MonoBehaviour
 {
     [Header("Field")]
-    public int money = 0;
+    public float money = 0;
     public int upgrade = 1;
     public int helperNum = 0;
 
