@@ -6,6 +6,6 @@ public class Cookie : MonoBehaviour
 {
     public void Click()
     {
-        DataManager.Instance.money += DataManager.Instance.upgrade;
+        GameManager.Instance.money += GameManager.Instance.upgrade;
     }
 }

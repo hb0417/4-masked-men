@@ -11,7 +11,7 @@ public class Upgrade : MonoBehaviour
     void Awake()
     {
         textMesh = GetComponentInChildren<TextMeshProUGUI>();
-        needGold = DataManager.Instance.upgrade;
+        needGold = GameManager.Instance.upgrade;
     }
 
     void Update()
@@ -21,11 +21,11 @@ public class Upgrade : MonoBehaviour
 
     public void UpgradeUP()
     {
-        if (DataManager.Instance.money >= needGold)
+        if (GameManager.Instance.money >= needGold)
         {
-            DataManager.Instance.money -= needGold;
+            GameManager.Instance.money -= needGold;
             needGold *= 2;
-            DataManager.Instance.upgrade++;
+            GameManager.Instance.upgrade++;
         }
     }
 }

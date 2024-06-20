@@ -1,0 +1,4236 @@
+fileFormatVersion: 2
+guid: 4a2ce9fd3d6a0bb42a46ea4f6d2a954a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CartoonGUIButtons_0
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 2651
+        width: 429
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf4915462277b94d8878b7bd16ad3cf
+      internalID: 122379122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_1
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 2651
+        width: 431
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60209e8d6609f5c429a9e63016742bae
+      internalID: -1976355149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_2
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 2651
+        width: 431
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e9970ff0ee615438b84a5974b1db4b
+      internalID: -1493022900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_3
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 2651
+        width: 429
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c240bd806fc4d84a8ab5a0cf2a4628b
+      internalID: 971703957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_4
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 2744
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647a2b33b529c934b81aae9418a1b17b
+      internalID: 1526414995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_5
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 2744
+        width: 185
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2939737f229a0d4792f3fa357f71fca
+      internalID: 2032966622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_6
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 2744
+        width: 185
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f12c2b708d5dd340a49ee3b1651e411
+      internalID: 944669208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_7
+      rect:
+        serializedVersion: 2
+        x: 2758
+        y: 2744
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fca173ce3be49458ae58ddf01e17b7
+      internalID: 1764437186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_8
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 2744
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5a3f98b081ff9479b56b49824f48e8
+      internalID: -1529850232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_9
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 2744
+        width: 185
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d54fdf67c4690b47b9afda7e302915c
+      internalID: 1283306935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_10
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2744
+        width: 186
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3f1c310041d89418d3795293a46527
+      internalID: -1889817763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_11
+      rect:
+        serializedVersion: 2
+        x: 3703
+        y: 2744
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab4b0c4c92144e4a86a84d446a03afa
+      internalID: -1753235804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_12
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 2412
+        width: 429
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be44f1a95e2a244a853777a0f4b1f51
+      internalID: -1563311773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_13
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 2412
+        width: 431
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ae4e82d566d0e428809d01c547e5fb
+      internalID: -1369163987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_14
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 2412
+        width: 431
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cefb88fd88b3e4a8bafedd494aa9fe
+      internalID: 769563759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_15
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 2412
+        width: 429
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7df4367f0f051c4a9d100ec385985ed
+      internalID: -130883359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_16
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 2526
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3286c45ac6231bf45b0ae69d8e901511
+      internalID: 2095302586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_17
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 2526
+        width: 185
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2732761d3e92e9d409fc5ec9363e2ac4
+      internalID: 1071262370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_18
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 2526
+        width: 185
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032e8cb85680b3e47a0b4fd57e3476b1
+      internalID: -1433473959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_19
+      rect:
+        serializedVersion: 2
+        x: 2758
+        y: 2526
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c300df260c51f3143ae0438dcac70b01
+      internalID: -759295521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_20
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 2526
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df3c4b6a32984e49853e3b8d631b421
+      internalID: -1706458337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_21
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 2526
+        width: 185
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fae228b8df1a84c866bdf94e4cd620
+      internalID: -1562424936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_22
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2526
+        width: 186
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abe4a9e41369eb4897d7fd9a9bbbd07
+      internalID: -1236369566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_23
+      rect:
+        serializedVersion: 2
+        x: 3703
+        y: 2526
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9480324d55ab66d4b8642a3d8a321b89
+      internalID: -2116747961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_24
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 2177
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6257f15cfc3ac3d4bbd2b1a5502255c7
+      internalID: 1868498075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_25
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 2177
+        width: 185
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea94384fb68ab34ab94652725c69aeb
+      internalID: -452233611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_26
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 2177
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119ba31e24e87034fb96fbdb9752d564
+      internalID: -545973307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_27
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 2177
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676f4b65862c80f46b878c9175bd6966
+      internalID: -1805639841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_28
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 2177
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c83f324b21c61048bc2170e3f080e24
+      internalID: -2072944672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_29
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 2308
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e30554c6def5984c882fe6ab95ccee8
+      internalID: 1774282176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_30
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 2308
+        width: 185
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7746882a1afa38745b7a20a0670261b2
+      internalID: 840576349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_31
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 2308
+        width: 185
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3eaeadd09fe48144b904a7ab6ba83e3
+      internalID: 1891819369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_32
+      rect:
+        serializedVersion: 2
+        x: 2758
+        y: 2308
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7035109b077734a9c2513ca581e9db
+      internalID: 1224323846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_33
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 2308
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4caac825d5362e4ba4d071a78b09461
+      internalID: 962701633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_34
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 2308
+        width: 185
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1c08b3550159748805366b68701135
+      internalID: 601934330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_35
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2308
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dff492be19ce7b40bd6d5c533ae1d54
+      internalID: -1255437276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_36
+      rect:
+        serializedVersion: 2
+        x: 3703
+        y: 2308
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af3f7b614510a64e85a4f5a5f1a0816
+      internalID: -679339780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_37
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 2091
+        width: 187
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8112708d092cc4d98b0dff2fa18d7e
+      internalID: -1090338147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_38
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 2091
+        width: 185
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27f21daa0d31b245a6c8c78e156557f
+      internalID: 220052526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_39
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 2091
+        width: 185
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ec81484ef134c46a33dde2c7415de4
+      internalID: 1515009075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_40
+      rect:
+        serializedVersion: 2
+        x: 2758
+        y: 2091
+        width: 187
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5746880660ab9e44293b7d2f21f22f82
+      internalID: -1357931049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_41
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 2091
+        width: 187
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88a463a46895f84193965c4e1c84d2d
+      internalID: 388989432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_42
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 2091
+        width: 185
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4552f7ad6da2a4c489d80ef949d3998c
+      internalID: -194054946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_43
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2091
+        width: 186
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4783e01885291474da22957406ae1b6e
+      internalID: -1820680371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_44
+      rect:
+        serializedVersion: 2
+        x: 3703
+        y: 2091
+        width: 187
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d808ea6a56abe4eaf37ad1783d2aef
+      internalID: -528445002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_45
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1872
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4543dd0228cc8c4ca54a39dd237cb57
+      internalID: 1688484977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_46
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1872
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02490ce0654560840a8641010378c2ba
+      internalID: 1093530998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_47
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1872
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb26a4485abec1418c71abb6904f627
+      internalID: 69426492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_48
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1872
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e15f900f7347646aa5e309699185b0
+      internalID: -1769960590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_49
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1872
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c365fb8ae159d43a865505fda0c910
+      internalID: -1165463770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_50
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1872
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afee0c5fd190c143961807285277a9e
+      internalID: 977956165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_51
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1872
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095ef1a7ac9f14346ab571297ec8f115
+      internalID: 298964739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_52
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 1872
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e2e166fadbfc64cb608ec890cfddba
+      internalID: -1494654239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_53
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 1872
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2c6c9e438458c4a8fe3d7044e450b0
+      internalID: -95210021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_54
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 1872
+        width: 185
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8734ecf86623ac499ad8da087683139
+      internalID: 998718790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_55
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 1872
+        width: 185
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cc3b885a49cbd4298801173a59220a
+      internalID: -1478516486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_56
+      rect:
+        serializedVersion: 2
+        x: 2758
+        y: 1872
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1188166acc38446954b0cc969de649
+      internalID: 1816014858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_57
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 1872
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf3bc69197d9314fb8448ed146f2047
+      internalID: -930332070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_58
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 1872
+        width: 185
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0bd071d415197948803d3bf5912c4fc
+      internalID: -2072983608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_59
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1872
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f9889e29695bc45bf4a93aaf6ff0fd
+      internalID: -798853481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_60
+      rect:
+        serializedVersion: 2
+        x: 3703
+        y: 1872
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e3de6f9bf62a347a7819d1e1f1fa0c
+      internalID: -1794394077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_61
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1654
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32e54a5f93e9f94da7a981afba6343a
+      internalID: -542471850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_62
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1654
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257dd5ca9ff977244ba5e5ae0808cd22
+      internalID: -587938393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_63
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1654
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4a9c41c5de12049b49f7b4f58fb859
+      internalID: -2015293279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_64
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1654
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a58df8d287f0b4c9268383c6ddb0db
+      internalID: 719999952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_65
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1654
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d71a66d1e37fa4192ee72693484b88
+      internalID: 665995509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_66
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1654
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e1454000f8f89419be344fb6743c60
+      internalID: 1404137164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_67
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1654
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de68d443737ef7429c47b513ea4b74c
+      internalID: 1083765069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_68
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 1654
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e4b61c3c55b034f8933184f537b8cb
+      internalID: 1010447325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_69
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 1654
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a4817d2efe2f448adbb34dbb437979
+      internalID: 195809870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_70
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 1654
+        width: 185
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3915148f7001ba34ab431547d8f401d8
+      internalID: -1799206513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_71
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 1654
+        width: 185
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcac59501c1c02645a9328ccb2feb19e
+      internalID: 1608132444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_72
+      rect:
+        serializedVersion: 2
+        x: 2758
+        y: 1654
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb059fc5e25bdd4c9cddbdd94cb212a
+      internalID: -1928512526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_73
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 1654
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b07e621677e7b4dad2c91c166fb61a
+      internalID: -1123636757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_74
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 1654
+        width: 185
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b99529ffbd46d4f90ee183d09accad
+      internalID: 43949912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_75
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1654
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0187ac4c60ca40419f8f64a6866d805
+      internalID: 736821580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_76
+      rect:
+        serializedVersion: 2
+        x: 3703
+        y: 1654
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709d5903eaba4eb4aaaf5ecee06ec19d
+      internalID: -561820527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_77
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1437
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f674b3a5767214d41a38dd9e37d64215
+      internalID: -342728414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_78
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1437
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f683e75104ee9458aaeae84cf77a8e
+      internalID: 632688426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_79
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1437
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba01bcb9f039e2458841064c22abba8
+      internalID: -1121365774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_80
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1437
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ae04eaed0ba4649ad08f907f6fbde0
+      internalID: -361935440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_81
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1437
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081629dd4f21da345a6047ba51882e2e
+      internalID: 220633816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_82
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1437
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafae6f45e9b9d145bf1debd3511afbd
+      internalID: 1724042089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_83
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1437
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadacfa8c638ddd4da5037a722b8c4a6
+      internalID: 1243461361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_84
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 1437
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d9d8fa304b85e4a873e9784fec2a9a
+      internalID: -80398615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_85
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 1437
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc02c0693cf3a141bde922a92bd5903
+      internalID: -1141243419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_86
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 1437
+        width: 185
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce9e0d8619adae4cad2b3f0450a8635
+      internalID: 924873621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_87
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 1437
+        width: 185
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1035534416729db489bbdcc399f1721b
+      internalID: -672365171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_88
+      rect:
+        serializedVersion: 2
+        x: 2758
+        y: 1437
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c582add9c53b8479bc9ecd1b8bf88e
+      internalID: 1215895487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_89
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 1437
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6734ec45544ec49b787f9409a2d659
+      internalID: 580655290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_90
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 1437
+        width: 185
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e4e76ace9cdb44288c4cd9391600f9
+      internalID: 159803812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_91
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1437
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d35575c701a2b4fa8618e6021a3310
+      internalID: 1808550355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_92
+      rect:
+        serializedVersion: 2
+        x: 3703
+        y: 1437
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535c75fc762e2514ebeec4a41bd92a17
+      internalID: -1560524079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_93
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1219
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae786f84d40e10140a863374848489ae
+      internalID: -1105056209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_94
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1219
+        width: 186
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8d9d4d4cacac346adf36a6e01d8004
+      internalID: -489887925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_95
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1219
+        width: 186
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfb6a8e16eea264a8e64d6feb7da035
+      internalID: 919206073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_96
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1219
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027818eb89a4fb74bbcd616883d8dda5
+      internalID: -410616641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_97
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1219
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f719553b85be774aa81fe8656cfcc97
+      internalID: -1343847127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_98
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1219
+        width: 186
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bd60da09d6a004fab302353c9a48bd
+      internalID: -690840710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_99
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1219
+        width: 186
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754af23fdeebe7945a55c0cb2eb5cafa
+      internalID: 1250381709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_100
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 1219
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b305440986bfb44bb78f5f739a2b16a
+      internalID: 635854077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_101
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 1219
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a5b1e1333ff32498d7d9e0320f5c22
+      internalID: 363268943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_102
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 1219
+        width: 185
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a5b6ea398bf3f408265b3b8c767e68
+      internalID: -1499091778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_103
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 1219
+        width: 185
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b488de1c3900bd04592bbca11e1e76cc
+      internalID: 1859212292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_104
+      rect:
+        serializedVersion: 2
+        x: 2758
+        y: 1219
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af9e9561c924164caf11a86de1b6c4b
+      internalID: 697150885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_105
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 1219
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63559331792c8254b9d6e9990f1a1a63
+      internalID: 570963014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_106
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 1219
+        width: 185
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866655cd1cb89124dae29b04b9d2407f
+      internalID: -424128157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_107
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1219
+        width: 186
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dca59400ed7e1b47bddc52b50ca8758
+      internalID: 862031988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_108
+      rect:
+        serializedVersion: 2
+        x: 3703
+        y: 1219
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410965a3d9179d541b02270b6e660ea9
+      internalID: 1310676866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_109
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1001
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b1f5414549d9e41a8e8a67936ba098
+      internalID: -855020407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_110
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1001
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51672ca7de031b459844cd4b444ad2e
+      internalID: -2117431444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_111
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1001
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c118feff4c7a71a49bdaecc9c20b0e78
+      internalID: 1340313041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_112
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1001
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a98e519ada99024fa42949b2b4b1a38
+      internalID: -224578264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_113
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1001
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8633536b4854c0641b00c57e8b773d44
+      internalID: -1830881487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_114
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1001
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240e76488ddb6ba4f96f6bf1e8440bd7
+      internalID: -634902193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_115
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1001
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a69ce61bc5896645bde9df8e093b020
+      internalID: 1528625625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_116
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 1001
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e133321dbad22824ea40a605e3aee95e
+      internalID: -1740177787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_117
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 1001
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9024a5a0d97dcd4469c2ec507b79f2c3
+      internalID: -1208293647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_118
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 1001
+        width: 185
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f15861c559d387469dcde85d187d28e
+      internalID: -460085029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_119
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 1001
+        width: 185
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fcd62a79f6d274bbfb06bb9973ee06
+      internalID: -557104493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_120
+      rect:
+        serializedVersion: 2
+        x: 2758
+        y: 1001
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa93166394b03ba44805033ed491d85d
+      internalID: -570495454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_121
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 1001
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90047ba6bc243446999b9806e2d9050
+      internalID: 609556348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_122
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 1001
+        width: 185
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75c19f0c97c50e4f951a2419b00ba08
+      internalID: -843780980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_123
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1001
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96019de9f51f0a149a6115a0281c541a
+      internalID: 667466157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_124
+      rect:
+        serializedVersion: 2
+        x: 3703
+        y: 1001
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b14c06ad8b359f4badcd19a66046a39
+      internalID: -1244513942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_125
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 783
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e336faa4c17fa24db651675e7c0ab98
+      internalID: 1598770219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_126
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 783
+        width: 186
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15665b8cf0a64d04ebd0e31037e4d442
+      internalID: 799689911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_127
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 783
+        width: 186
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fecd693cf47af44a91e01eaa3c70e2
+      internalID: 481985454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_128
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 783
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8420b5c37af662d4ba5b1318143f60f7
+      internalID: -1211964279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_129
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 783
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b93f52f7306af4692009ca52c42688
+      internalID: 1232123749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_130
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 783
+        width: 186
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0694ea9cb4076e24ea3c0a568430d186
+      internalID: -908094907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_131
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 783
+        width: 186
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd0ecf22ad36e94f928cc536d21377d
+      internalID: 696394233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_132
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 783
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4baa90f9945348746b7b79a91415053f
+      internalID: 1767285618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_133
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 783
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05923c98427dfdd41b1f3baf411ed7df
+      internalID: -841325947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_134
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 783
+        width: 185
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de4c107b5b88d941bd7c9b306fa73f4
+      internalID: -38525845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_135
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 783
+        width: 185
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10904919103fd3d4c8198621eccd9c2a
+      internalID: 2130981534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_136
+      rect:
+        serializedVersion: 2
+        x: 2758
+        y: 783
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6582b27e6962449adabf14a966370c
+      internalID: -417273705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_137
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 783
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffacdd09c9805943876a7e84a4f611c
+      internalID: -1783008734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_138
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 783
+        width: 185
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699fae46b35e8a641a490477bc76d9bc
+      internalID: -951878261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_139
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 783
+        width: 186
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0437343feca32f748a3f3f3db838c9fe
+      internalID: -1701979251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_140
+      rect:
+        serializedVersion: 2
+        x: 3703
+        y: 783
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5006e473924705f409dd122bb393e73c
+      internalID: -1059613117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_141
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 565
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6fbd4fe7a568b47a6b38192c3133ad
+      internalID: 392176578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_142
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 565
+        width: 186
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858ec6fb45533dc4a960179566ae956c
+      internalID: -1465458168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_143
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 565
+        width: 186
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47805922273a4b34b9e5fe5b0704d0e8
+      internalID: 438095281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_144
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 565
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e435e3b693efa224eb36e72dfe67a981
+      internalID: -1523201802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_145
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 565
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0d5c701def07f41b983223036d0401
+      internalID: 356930776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_146
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 565
+        width: 186
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16d1aabdfb89814c9e516bab1cca15a
+      internalID: -165174893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_147
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 565
+        width: 186
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078b103bbb784e74881cf564c0967973
+      internalID: 1317755479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_148
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 565
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec0b73765de90d498dd1194e6c7b2c7
+      internalID: -61939730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_149
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 565
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d3c4dc7b274914b9fa0857f758871c
+      internalID: 554412084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_150
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 565
+        width: 185
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a59af9cf28c24408d216ccb17bcb9a
+      internalID: 73702319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_151
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 565
+        width: 185
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e4ef1952722c149ae3fc74e47ab021
+      internalID: -400631450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_152
+      rect:
+        serializedVersion: 2
+        x: 2758
+        y: 565
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a52d0bf239cb743b3921d91481ed2f
+      internalID: 1739428556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_153
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 565
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a3074f419933a499da68bdace1a675
+      internalID: 1311060440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_154
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 565
+        width: 185
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0e772e424bbc2418fd02c07e94fef3
+      internalID: -751960599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_155
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 565
+        width: 186
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61da4be2e9423bc4dac35bdc00fbe636
+      internalID: -1358034487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_156
+      rect:
+        serializedVersion: 2
+        x: 3703
+        y: 565
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f4046e0837b564fbf09c0a81ef7ba4
+      internalID: -1672789737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_157
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 347
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8d251fd09effb43a8e8eadb58fea51
+      internalID: -1954955135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_158
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 347
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8ff6b633aed2a499f3808b622fb191
+      internalID: 1200421452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_159
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 347
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb68b8d54946f04fb6bd2a922a6dd1e
+      internalID: 1812731875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_160
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 347
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834ca3f979305824e8a86d27b9f81f2d
+      internalID: -614794574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_161
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 347
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3403a0ed7faa494ca5075ed122c7e10
+      internalID: -86461700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_162
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 347
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bbce9858ed2584aaa6495b8acfbcac
+      internalID: -1938275342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_163
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 347
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff6b9b5bd6b3994cbe93e6a800edb15
+      internalID: -1808766292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_164
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 347
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06075f7763163a44b89560be18b798b4
+      internalID: -1942679728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_165
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 349
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a4df879b7315b4c8dfb4f9b1614928
+      internalID: -184578000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_166
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 349
+        width: 185
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f7345223b1d714c846d867428e35bf
+      internalID: 1081802452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_167
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 349
+        width: 185
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54309efd2287b30409ac390cccb2ff80
+      internalID: 434461863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_168
+      rect:
+        serializedVersion: 2
+        x: 2758
+        y: 349
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e86f5b1a5178c48bb6544384d5a48e
+      internalID: 46554844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_169
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 349
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de035e371926a0c42ba7976b99ae674a
+      internalID: -721772389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_170
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 349
+        width: 185
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12976375c16f82e429aaec0fd9c8fc03
+      internalID: 872167358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_171
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 349
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778850f3c8fcb5c409f326968b16e1e6
+      internalID: -249872393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_172
+      rect:
+        serializedVersion: 2
+        x: 3703
+        y: 349
+        width: 187
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716650d984a7ec14394b666543b1fe16
+      internalID: 466812848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_173
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 130
+        width: 187
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72704170c07da5b4690ff62e2a35cd4b
+      internalID: 1502299995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_174
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 130
+        width: 186
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960b5a4074a7610489d78a3a2cd73b63
+      internalID: -1843290232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_175
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 130
+        width: 186
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f6d83bc31fd0c48816f38c4e70b9c0
+      internalID: -1509763747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_176
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 130
+        width: 187
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6d1ebde6c283c4b82e91968d0be5e3
+      internalID: -1277307168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_177
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 130
+        width: 187
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8da72ba256f134faa441dd9b5e55d1
+      internalID: 235443661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_178
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 130
+        width: 186
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8285bf18657b8428fe092e2f21739c
+      internalID: 1149829339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_179
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 130
+        width: 186
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f351bf4820c4554ab5fd262c645511b
+      internalID: -660634919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_180
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 130
+        width: 187
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190343756d839bf45bd6801b5e09b059
+      internalID: -497593193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_181
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 130
+        width: 187
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623c4e05209c7c84a999a4f5c09ee6f6
+      internalID: 1337406242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_182
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 130
+        width: 185
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32cceef682ed7649a1da1f44c22f276
+      internalID: -479541288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_183
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 130
+        width: 185
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cad6653b5b92ce4db445ff4eac512c2
+      internalID: -661786804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CartoonGUIButtons_184
+      rect:
+        serializedVersion: 2
+        x: 2758
+        y: 130
+        width: 187
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb647d4df5db0b42a043689917f2a5a
+      internalID: -1758130819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CartoonGUIButtons_0: 122379122
+      CartoonGUIButtons_1: -1976355149
+      CartoonGUIButtons_10: -1889817763
+      CartoonGUIButtons_100: 635854077
+      CartoonGUIButtons_101: 363268943
+      CartoonGUIButtons_102: -1499091778
+      CartoonGUIButtons_103: 1859212292
+      CartoonGUIButtons_104: 697150885
+      CartoonGUIButtons_105: 570963014
+      CartoonGUIButtons_106: -424128157
+      CartoonGUIButtons_107: 862031988
+      CartoonGUIButtons_108: 1310676866
+      CartoonGUIButtons_109: -855020407
+      CartoonGUIButtons_11: -1753235804
+      CartoonGUIButtons_110: -2117431444
+      CartoonGUIButtons_111: 1340313041
+      CartoonGUIButtons_112: -224578264
+      CartoonGUIButtons_113: -1830881487
+      CartoonGUIButtons_114: -634902193
+      CartoonGUIButtons_115: 1528625625
+      CartoonGUIButtons_116: -1740177787
+      CartoonGUIButtons_117: -1208293647
+      CartoonGUIButtons_118: -460085029
+      CartoonGUIButtons_119: -557104493
+      CartoonGUIButtons_12: -1563311773
+      CartoonGUIButtons_120: -570495454
+      CartoonGUIButtons_121: 609556348
+      CartoonGUIButtons_122: -843780980
+      CartoonGUIButtons_123: 667466157
+      CartoonGUIButtons_124: -1244513942
+      CartoonGUIButtons_125: 1598770219
+      CartoonGUIButtons_126: 799689911
+      CartoonGUIButtons_127: 481985454
+      CartoonGUIButtons_128: -1211964279
+      CartoonGUIButtons_129: 1232123749
+      CartoonGUIButtons_13: -1369163987
+      CartoonGUIButtons_130: -908094907
+      CartoonGUIButtons_131: 696394233
+      CartoonGUIButtons_132: 1767285618
+      CartoonGUIButtons_133: -841325947
+      CartoonGUIButtons_134: -38525845
+      CartoonGUIButtons_135: 2130981534
+      CartoonGUIButtons_136: -417273705
+      CartoonGUIButtons_137: -1783008734
+      CartoonGUIButtons_138: -951878261
+      CartoonGUIButtons_139: -1701979251
+      CartoonGUIButtons_14: 769563759
+      CartoonGUIButtons_140: -1059613117
+      CartoonGUIButtons_141: 392176578
+      CartoonGUIButtons_142: -1465458168
+      CartoonGUIButtons_143: 438095281
+      CartoonGUIButtons_144: -1523201802
+      CartoonGUIButtons_145: 356930776
+      CartoonGUIButtons_146: -165174893
+      CartoonGUIButtons_147: 1317755479
+      CartoonGUIButtons_148: -61939730
+      CartoonGUIButtons_149: 554412084
+      CartoonGUIButtons_15: -130883359
+      CartoonGUIButtons_150: 73702319
+      CartoonGUIButtons_151: -400631450
+      CartoonGUIButtons_152: 1739428556
+      CartoonGUIButtons_153: 1311060440
+      CartoonGUIButtons_154: -751960599
+      CartoonGUIButtons_155: -1358034487
+      CartoonGUIButtons_156: -1672789737
+      CartoonGUIButtons_157: -1954955135
+      CartoonGUIButtons_158: 1200421452
+      CartoonGUIButtons_159: 1812731875
+      CartoonGUIButtons_16: 2095302586
+      CartoonGUIButtons_160: -614794574
+      CartoonGUIButtons_161: -86461700
+      CartoonGUIButtons_162: -1938275342
+      CartoonGUIButtons_163: -1808766292
+      CartoonGUIButtons_164: -1942679728
+      CartoonGUIButtons_165: -184578000
+      CartoonGUIButtons_166: 1081802452
+      CartoonGUIButtons_167: 434461863
+      CartoonGUIButtons_168: 46554844
+      CartoonGUIButtons_169: -721772389
+      CartoonGUIButtons_17: 1071262370
+      CartoonGUIButtons_170: 872167358
+      CartoonGUIButtons_171: -249872393
+      CartoonGUIButtons_172: 466812848
+      CartoonGUIButtons_173: 1502299995
+      CartoonGUIButtons_174: -1843290232
+      CartoonGUIButtons_175: -1509763747
+      CartoonGUIButtons_176: -1277307168
+      CartoonGUIButtons_177: 235443661
+      CartoonGUIButtons_178: 1149829339
+      CartoonGUIButtons_179: -660634919
+      CartoonGUIButtons_18: -1433473959
+      CartoonGUIButtons_180: -497593193
+      CartoonGUIButtons_181: 1337406242
+      CartoonGUIButtons_182: -479541288
+      CartoonGUIButtons_183: -661786804
+      CartoonGUIButtons_184: -1758130819
+      CartoonGUIButtons_19: -759295521
+      CartoonGUIButtons_2: -1493022900
+      CartoonGUIButtons_20: -1706458337
+      CartoonGUIButtons_21: -1562424936
+      CartoonGUIButtons_22: -1236369566
+      CartoonGUIButtons_23: -2116747961
+      CartoonGUIButtons_24: 1868498075
+      CartoonGUIButtons_25: -452233611
+      CartoonGUIButtons_26: -545973307
+      CartoonGUIButtons_27: -1805639841
+      CartoonGUIButtons_28: -2072944672
+      CartoonGUIButtons_29: 1774282176
+      CartoonGUIButtons_3: 971703957
+      CartoonGUIButtons_30: 840576349
+      CartoonGUIButtons_31: 1891819369
+      CartoonGUIButtons_32: 1224323846
+      CartoonGUIButtons_33: 962701633
+      CartoonGUIButtons_34: 601934330
+      CartoonGUIButtons_35: -1255437276
+      CartoonGUIButtons_36: -679339780
+      CartoonGUIButtons_37: -1090338147
+      CartoonGUIButtons_38: 220052526
+      CartoonGUIButtons_39: 1515009075
+      CartoonGUIButtons_4: 1526414995
+      CartoonGUIButtons_40: -1357931049
+      CartoonGUIButtons_41: 388989432
+      CartoonGUIButtons_42: -194054946
+      CartoonGUIButtons_43: -1820680371
+      CartoonGUIButtons_44: -528445002
+      CartoonGUIButtons_45: 1688484977
+      CartoonGUIButtons_46: 1093530998
+      CartoonGUIButtons_47: 69426492
+      CartoonGUIButtons_48: -1769960590
+      CartoonGUIButtons_49: -1165463770
+      CartoonGUIButtons_5: 2032966622
+      CartoonGUIButtons_50: 977956165
+      CartoonGUIButtons_51: 298964739
+      CartoonGUIButtons_52: -1494654239
+      CartoonGUIButtons_53: -95210021
+      CartoonGUIButtons_54: 998718790
+      CartoonGUIButtons_55: -1478516486
+      CartoonGUIButtons_56: 1816014858
+      CartoonGUIButtons_57: -930332070
+      CartoonGUIButtons_58: -2072983608
+      CartoonGUIButtons_59: -798853481
+      CartoonGUIButtons_6: 944669208
+      CartoonGUIButtons_60: -1794394077
+      CartoonGUIButtons_61: -542471850
+      CartoonGUIButtons_62: -587938393
+      CartoonGUIButtons_63: -2015293279
+      CartoonGUIButtons_64: 719999952
+      CartoonGUIButtons_65: 665995509
+      CartoonGUIButtons_66: 1404137164
+      CartoonGUIButtons_67: 1083765069
+      CartoonGUIButtons_68: 1010447325
+      CartoonGUIButtons_69: 195809870
+      CartoonGUIButtons_7: 1764437186
+      CartoonGUIButtons_70: -1799206513
+      CartoonGUIButtons_71: 1608132444
+      CartoonGUIButtons_72: -1928512526
+      CartoonGUIButtons_73: -1123636757
+      CartoonGUIButtons_74: 43949912
+      CartoonGUIButtons_75: 736821580
+      CartoonGUIButtons_76: -561820527
+      CartoonGUIButtons_77: -342728414
+      CartoonGUIButtons_78: 632688426
+      CartoonGUIButtons_79: -1121365774
+      CartoonGUIButtons_8: -1529850232
+      CartoonGUIButtons_80: -361935440
+      CartoonGUIButtons_81: 220633816
+      CartoonGUIButtons_82: 1724042089
+      CartoonGUIButtons_83: 1243461361
+      CartoonGUIButtons_84: -80398615
+      CartoonGUIButtons_85: -1141243419
+      CartoonGUIButtons_86: 924873621
+      CartoonGUIButtons_87: -672365171
+      CartoonGUIButtons_88: 1215895487
+      CartoonGUIButtons_89: 580655290
+      CartoonGUIButtons_9: 1283306935
+      CartoonGUIButtons_90: 159803812
+      CartoonGUIButtons_91: 1808550355
+      CartoonGUIButtons_92: -1560524079
+      CartoonGUIButtons_93: -1105056209
+      CartoonGUIButtons_94: -489887925
+      CartoonGUIButtons_95: 919206073
+      CartoonGUIButtons_96: -410616641
+      CartoonGUIButtons_97: -1343847127
+      CartoonGUIButtons_98: -690840710
+      CartoonGUIButtons_99: 1250381709
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

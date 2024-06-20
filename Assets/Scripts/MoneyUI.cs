@@ -16,7 +16,7 @@ public class MoneyUI : MonoBehaviour
 
     void Update()
     {
-        textMesh.text = $"Gold: {DataManager.Instance.money}";
-        textMesh2.text = $"Helper: {DataManager.Instance.helperNum}";
+        textMesh.text = $"Gold: {GameManager.Instance.money}";
+        textMesh2.text = $"Helper: {GameManager.Instance.helperNum}";
     }
 }
