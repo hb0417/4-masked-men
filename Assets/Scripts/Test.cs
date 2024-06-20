@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class Test : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public Sprite sprite;
+
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        DataManager.Instance.sprites.Add(sprite);
     }
 }

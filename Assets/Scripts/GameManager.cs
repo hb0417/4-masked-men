@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
@@ -20,6 +21,15 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    private BossManager boss;
+    public BossManager Boss
+    {
+        get { return boss; }
+        set { boss = value; }
+    }
+
+    public GameObject parentObject; // 자식 오브젝트의 부모 오브젝트
+
     private void Awake()
     {
         if (instance == null)
@@ -31,12 +41,25 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        parentObject = GameObject.FindWithTag("Photo");
     }
 
-    private BossManager boss;
-    public BossManager Boss
+    private void Start()
     {
-        get { return boss; }
-        set { boss = value; }
+        StartCoroutine(CreateChildObjects());
+    }
+     IEnumerator CreateChildObjects()
+    {
+        for (int i = 0; i < DataManager.Instance.sprites.Count; i++)
+        {
+            GameObject childObject = new GameObject("Child Object " + i);
+            childObject.transform.SetParent(parentObject.transform);
+
+            SpriteRenderer spriteRenderer = childObject.AddComponent<SpriteRenderer>();
+            spriteRenderer.sprite = DataManager.Instance.sprites[i];
+        }
+        yield return null;
+        StartCoroutine(CreateChildObjects());
     }
 }
