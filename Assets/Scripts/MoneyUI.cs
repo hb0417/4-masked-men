@@ -11,12 +11,12 @@ public class MoneyUI : MonoBehaviour
     void Awake()
     {
         textMesh = transform.GetChild(0).GetComponent<TextMeshProUGUI>();
-        textMesh2 = transform.GetChild(1).GetComponent<TextMeshProUGUI>();
+        //textMesh2 = transform.GetChild(1).GetComponent<TextMeshProUGUI>();
     }
 
     void Update()
     {
-        textMesh.text = $"Gold: {DataManager.Instance.money}";
-        textMesh2.text = $"Helper: {DataManager.Instance.helperNum}";
+        textMesh.text = $"{DataManager.Instance.money}";
+        //textMesh2.text = $"Helper: {DataManager.Instance.helperNum}";
     }
 }
