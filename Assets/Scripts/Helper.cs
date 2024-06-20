@@ -23,10 +23,10 @@ public class Helper : MonoBehaviour
     }
     public void PurchaseHelp()
     {
-        if (DataManager.Instance.money >= needGold)
+        if (GameManager.Instance.money >= needGold)
         {
-            DataManager.Instance.money -= needGold;
-            DataManager.Instance.helperNum++;
+            GameManager.Instance.money -= needGold;
+            GameManager.Instance.helperNum++;
             needGold *= 2;
             GameObject myInstance = Instantiate(prefab);
             myInstance.transform.position = a;

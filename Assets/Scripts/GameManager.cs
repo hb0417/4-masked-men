@@ -20,6 +20,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    [Header("Field")]
+    public int money = 0;
+    public int upgrade = 1;
+    public int helperNum = 0;
+
     private void Awake()
     {
         if (instance == null)

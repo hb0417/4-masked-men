@@ -12,7 +12,7 @@ public class HelperController : MonoBehaviour
 
     IEnumerator MakeMoney()
     {
-        DataManager.Instance.money++;
+        GameManager.Instance.money++;
         yield return new WaitForSecondsRealtime(1f);
         StartCoroutine(MakeMoney());
     }
