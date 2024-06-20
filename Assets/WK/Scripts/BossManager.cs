@@ -10,6 +10,7 @@ public class BossManager : MonoBehaviour // WK
 
     private void Awake()
     {
+        GameManager.Instance.Boss = this;
         curBoss = Instantiate(bossPrefab);
     }
 

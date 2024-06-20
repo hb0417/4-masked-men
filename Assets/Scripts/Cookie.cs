@@ -10,6 +10,6 @@ public class Cookie : MonoBehaviour
     }
     public void Click()
     {
-        GameManager.Instance.money += GameManager.Instance.upgrade;
+        DataManager.Instance.money += DataManager.Instance.upgrade;
     }
 }
