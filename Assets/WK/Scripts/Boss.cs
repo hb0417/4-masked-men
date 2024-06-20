@@ -10,7 +10,7 @@ public class Boss : MonoBehaviour // WK
     private float baseBossStemina;
     private float curBossStemina;
 
-    [SerializeField] private SpriteRenderer bossImage; // 보스 이미지
+    [SerializeField] private Image bossImage; // 보스 이미지
     [SerializeField] private TextMeshProUGUI bossNameTxt; // 보스 이름
 
     [SerializeField] private Transform bossSpeechBubble; //보스 말풍선
@@ -19,7 +19,6 @@ public class Boss : MonoBehaviour // WK
     [SerializeField] private Image bossHealthBar;
 
     private BossDataSO curSO;
-
 
     [SerializeField] private Sprite circleSprite; // 게임 클리어 후에 나올 보스이미지
 
@@ -44,6 +43,16 @@ public class Boss : MonoBehaviour // WK
     public void OnBossSpeech() // 보스 말풍선 시작
     {
         StartCoroutine(OnBossSpeechBubble());
+    }
+
+    public void TryGetPicture()
+    {
+        int i = Random.Range(0,1000);
+
+        if (i > 1)
+        {
+            DataManager.Instance.images.Add(ReturnPicture());
+        }
     }
 
     private void BossDataEnter() // 보스 데이터 초기화

@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reward:
     dropGold: 20
-    BossPicture: []
+    BossPicture:
+    - {fileID: 21300000, guid: e2907c252e59e8044b36862319d0268b, type: 3}
   bossName: "\uD64D\uC131\uC6B0"
   bossStemina: 4000000
   bossImage: {fileID: 21300000, guid: c7d4a6f761644354f82c9bebfcbc1543, type: 3}

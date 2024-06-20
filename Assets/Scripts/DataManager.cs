@@ -10,7 +10,7 @@ public class DataManager : MonoBehaviour
     public int helperNum = 0;
 
     [Header("Photo")]
-    public List<Image> images;
+    public List<Sprite> images;
 
     private static DataManager _instance;
     public static DataManager Instance
