@@ -15,12 +15,12 @@ public class Pet : MonoBehaviour // WK
 
     private void Start()
     {
-        StartCoroutine(OnPetAttack());
+       StartCoroutine(OnPetAttack());
     }
 
     private void PetAttack()
     {
-        GameManager.Instance.Boss.OnDmagable(petAtk);
+        CreateProjectile();
     }
 
     private IEnumerator OnPetAttack()
@@ -28,7 +28,6 @@ public class Pet : MonoBehaviour // WK
         while (true)
         {
             PetAttack();
-            CreateProjectile();
 
             yield return new WaitForSeconds(atkSpeed);
         }
@@ -40,6 +39,6 @@ public class Pet : MonoBehaviour // WK
         obj.transform.position = projectileSpawnPosition.position;
         PetProjectile petProjectile = obj.GetComponent<PetProjectile>();
         petProjectile.Initialize(petAtk);
-        petProjectile.GetTargetVector();
+        petProjectile.ProjectileShoot();
     }
 }

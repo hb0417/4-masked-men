@@ -4,15 +4,21 @@ using UnityEngine.UI;
 
 public class PetSlot : MonoBehaviour
 {
-    public Pet thisSlotPet;
+    [HideInInspector] public Pet thisSlotPet;
 
     public Image petIcon;
     public TextMeshProUGUI petNameTxt;
     public TextMeshProUGUI petCostTxt;
+    public TextMeshProUGUI buttonTxt;
+    public Button purchaseButton;
+
+    public Outline outline;
 
     private void Start()
     {
-        if(thisSlotPet != null)
+        outline.enabled = false;
+
+        if (thisSlotPet != null)
         {
             petIcon.sprite = thisSlotPet.icon;
             petNameTxt.text = thisSlotPet.petName;
@@ -23,6 +29,8 @@ public class PetSlot : MonoBehaviour
     public void OnPurchasePet()
     {
         Instantiate(thisSlotPet);
-        this.enabled = false;
+        buttonTxt.text = "구매완료";
+        outline.enabled = true;
+        purchaseButton.enabled = false;
     }
 }

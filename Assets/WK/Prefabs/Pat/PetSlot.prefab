@@ -787,7 +787,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4970746458798835643}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -815,6 +815,9 @@ MonoBehaviour:
   petIcon: {fileID: 766088881327486188}
   petNameTxt: {fileID: 2560132681009200959}
   petCostTxt: {fileID: 3568611520933050661}
+  buttonTxt: {fileID: 3475955946871693018}
+  purchaseButton: {fileID: 4990519202851320676}
+  outline: {fileID: 925079016051008703}
 --- !u!1 &5476329214984351888
 GameObject:
   m_ObjectHideFlags: 0
@@ -902,6 +905,7 @@ GameObject:
   - component: {fileID: 457693165621040283}
   - component: {fileID: 9071702240902922360}
   - component: {fileID: 2288517746754039340}
+  - component: {fileID: 925079016051008703}
   m_Layer: 5
   m_Name: BackGround
   m_TagString: Untagged
@@ -966,3 +970,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &925079016051008703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7636303810660230606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.05351162, g: 1, b: 0, a: 1}
+  m_EffectDistance: {x: 3, y: 3}
+  m_UseGraphicAlpha: 1

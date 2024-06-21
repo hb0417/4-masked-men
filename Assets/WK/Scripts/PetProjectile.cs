@@ -25,7 +25,7 @@ public class PetProjectile : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-    public void GetTargetVector()
+    public void ProjectileShoot()
     {
         Vector2 direction = (target.position - this.transform.position).normalized;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;

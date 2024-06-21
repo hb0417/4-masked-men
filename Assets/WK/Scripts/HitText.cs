@@ -31,10 +31,10 @@ public class HitText : MonoBehaviour
 
     private void TextRandomPosition()
     {
-        float ranNumX = Random.Range(0.05f, 0.15f);
-        float ranNumY = Random.Range(0.05f, 0.3f);
+        float ranNumX = Random.Range(0f, 3f);
+        float ranNumY = Random.Range(-3f, 3f);
 
-        spawnPosition.position = new Vector3(ranNumX, ranNumY, 1);
+        spawnPosition.localPosition = new Vector3(ranNumX, ranNumY, 1);
     }
 
     private void ChangeText(float value)
