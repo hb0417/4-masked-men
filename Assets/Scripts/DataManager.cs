@@ -11,6 +11,7 @@ public class DataManager : MonoBehaviour
 
     [Header("Photo")]
     public List<Sprite> sprites;
+    public Test test;
 
     [Header("Boss")]
 
@@ -43,7 +44,9 @@ public class DataManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        test = GameObject.Find("Test").GetComponent<Test>();
         sprites = new List<Sprite>();
+        test.Give();
     }
 }
 public class ItemData

@@ -6,7 +6,7 @@ public class Test : MonoBehaviour
 {
     public Sprite sprite;
 
-    void Start()
+    public void Give()
     {
         DataManager.Instance.sprites.Add(sprite);
     }
