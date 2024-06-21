@@ -10,7 +10,10 @@ public class DataManager : MonoBehaviour
     public int helperNum = 0;
 
     [Header("Photo")]
-    public List<Sprite> images;
+    public List<Sprite> sprites;
+    public Test test;
+
+    [Header("Boss")]
 
     private static DataManager _instance;
     public static DataManager Instance
@@ -41,5 +44,12 @@ public class DataManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        test = GameObject.Find("Test").GetComponent<Test>();
+        sprites = new List<Sprite>();
+        test.Give();
     }
+}
+public class ItemData
+{
+    public GameObject dropPrefab;
 }

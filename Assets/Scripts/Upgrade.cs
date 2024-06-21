@@ -5,12 +5,12 @@ using UnityEngine;
 
 public class Upgrade : MonoBehaviour
 {
-    TextMeshProUGUI textMesh;
+    TMP_Text textMesh;
     int needGold;
 
     void Awake()
     {
-        textMesh = GetComponentInChildren<TextMeshProUGUI>();
+        textMesh = GetComponentInChildren<TMP_Text>();
         needGold = DataManager.Instance.upgrade;
     }
 

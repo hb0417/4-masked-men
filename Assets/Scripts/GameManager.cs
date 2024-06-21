@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using TMPro;
+using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
@@ -23,6 +25,15 @@ public class GameManager : MonoBehaviour
         }
     }
 
+
+    private BossManager boss;
+
+    public BossManager Boss
+    {
+        get { return boss; }
+        set { boss = value; }
+    }
+
     private void Awake()
     {
         ObjectPool = GetComponent<ObjectPool>();
@@ -36,13 +47,6 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-    }
-
-    private BossManager boss;
-    public BossManager Boss
-    {
-        get { return boss; }
-        set { boss = value; }
     }
 
     public void OnHitText(float Atk)

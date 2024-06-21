@@ -5,18 +5,15 @@ using UnityEngine;
 
 public class MoneyUI : MonoBehaviour
 {
-    TextMeshProUGUI textMesh;
-    TextMeshProUGUI textMesh2;
+    TMP_Text textMesh;
 
     void Awake()
     {
-        textMesh = transform.GetChild(0).GetComponent<TextMeshProUGUI>();
-        //textMesh2 = transform.GetChild(1).GetComponent<TextMeshProUGUI>();
+        textMesh = transform.GetChild(0).GetComponent<TMP_Text>();
     }
 
     void Update()
     {
-        textMesh.text = $"{DataManager.Instance.money}";
-        //textMesh2.text = $"Helper: {DataManager.Instance.helperNum}";
+        textMesh.text = $"Gold: " + Util.Instance.NumConversion(DataManager.Instance.money);
     }
 }
