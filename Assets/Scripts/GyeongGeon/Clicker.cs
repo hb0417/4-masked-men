@@ -28,6 +28,6 @@ public class Clicker : MonoBehaviour
     {
         DataManager.Instance.money += playerStatHandler.CurrentStat.playerStatSO.tapDamage;
 
-        GameManager.Instance.Boss.OnDmagable(playerStatHandler.CurrentStat.playerStatSO.tapDamage);
+        //GameManager.Instance.Boss.OnDmagable(playerStatHandler.CurrentStat.playerStatSO.tapDamage);
     }
 }
