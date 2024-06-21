@@ -35,7 +35,6 @@ public class Util : MonoBehaviour
     {
         for (int i = 0; i < maxDropItemNum + 1; i++)
         {
-            RandomPercent(itemDropPercent);
             if (RandomPercent(itemDropPercent))
             {
                 Instantiate(dropOnDeath[i].dropPrefab, transform.position + Vector3.up * 2, Quaternion.identity);

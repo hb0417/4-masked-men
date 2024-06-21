@@ -47,9 +47,7 @@ public class Boss : MonoBehaviour // WK
 
     public void TryGetPicture()
     {
-        int i = Random.Range(0,1000);
-
-        if (i > 1)
+        if (Util.Instance.RandomPercent(0.1f))
         {
             DataManager.Instance.sprites.Add(ReturnPicture());
         }
