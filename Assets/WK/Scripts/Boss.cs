@@ -10,7 +10,7 @@ public class Boss : MonoBehaviour // WK
     private float baseBossStemina;
     private float curBossStemina;
 
-    [SerializeField] private Image bossImage; // 보스 이미지
+    public Image bossImage; // 보스 이미지
     [SerializeField] private TextMeshProUGUI bossNameTxt; // 보스 이름
 
     [SerializeField] private Transform bossSpeechBubble; //보스 말풍선

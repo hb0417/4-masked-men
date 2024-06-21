@@ -6,7 +6,7 @@ public class BossManager : MonoBehaviour // WK
 
     [SerializeField] private BossDataSO[] bossDataSOs;
     [SerializeField] private Boss bossPrefab;
-    private Boss curBoss;
+    public Boss curBoss;
 
     private void Awake()
     {

@@ -3,6 +3,7 @@
 public class GameManager : MonoBehaviour
 {
     private static GameManager instance;
+    public ObjectPool ObjectPool { get; private set; }
     public static GameManager Instance
     {
         get
@@ -22,6 +23,8 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        ObjectPool = GetComponent<ObjectPool>();
+
         if (instance == null)
         {
             instance = this;
