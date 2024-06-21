@@ -2,6 +2,7 @@ using Assets.Scripts.Common;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PhotoSelectUIScrollView : MonoBehaviour
 {
@@ -9,8 +10,9 @@ public class PhotoSelectUIScrollView : MonoBehaviour
     public PhotoSelectUI ui;
     public Transform contentsTrans;
     public GameObject photoPrefab;
-    public GameObject photoFrame;
-    public int selectPhotoID;
+    public GameObject totalFrame;
+    private GameObject photoFrame;
+    private int selectPhotoID;
 
     public void Init()
     {
@@ -32,9 +34,9 @@ public class PhotoSelectUIScrollView : MonoBehaviour
     public void SpriteChange(PhotoPrefab photoPrefab)
     {
         selectPhotoID = main.selectPhotoID;
-        photoFrame = GameObject.Find($"Frame{selectPhotoID}").transform.Find("Photo").gameObject;
+        photoFrame = totalFrame.transform.GetChild(selectPhotoID-1).transform.GetChild(0).gameObject;
         photoFrame.SetActive(true);
-        photoFrame.GetComponent<SpriteRenderer>().sprite = photoPrefab.photoSprite;
+        photoFrame.GetComponent<Image>().sprite = photoPrefab.photoSprite;
         ui.SetActive(false);
     }
 }

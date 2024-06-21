@@ -12,5 +12,4 @@ public class PhotoSelectUI : MonoBehaviour
         //스크롤 뷰 초기화
         this.photoSelectUIScrollView.Init();
     }
-
 }
