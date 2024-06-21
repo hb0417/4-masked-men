@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using TMPro;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -28,8 +29,6 @@ public class GameManager : MonoBehaviour
         set { boss = value; }
     }
 
-    public GameObject parentObject; // 자식 오브젝트의 부모 오브젝트
-
     private void Awake()
     {
         if (instance == null)
@@ -42,24 +41,16 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
 
-        parentObject = GameObject.FindWithTag("Photo");
     }
 
     private void Start()
     {
-        StartCoroutine(CreateChildObjects());
+        StartCoroutine(GoldMark());
     }
-     IEnumerator CreateChildObjects()
+    IEnumerator GoldMark()
     {
-        for (int i = 0; i < DataManager.Instance.sprites.Count; i++)
-        {
-            GameObject childObject = new GameObject("Child Object " + i);
-            childObject.transform.SetParent(parentObject.transform);
 
-            SpriteRenderer spriteRenderer = childObject.AddComponent<SpriteRenderer>();
-            spriteRenderer.sprite = DataManager.Instance.sprites[i];
-        }
         yield return null;
-        StartCoroutine(CreateChildObjects());
+        StartCoroutine(GoldMark());
     }
 }

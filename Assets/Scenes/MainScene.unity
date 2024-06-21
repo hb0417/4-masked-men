@@ -1254,7 +1254,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9b8d45c7b34be40b68634b6a1513c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentObject: {fileID: 0}
 --- !u!4 &1205395435
 Transform:
   m_ObjectHideFlags: 0
@@ -1727,6 +1726,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 682f617b6a851dc45a26dbc3dffa3744, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moneyUI: {fileID: 2042819786}
 --- !u!114 &2042819789
 MonoBehaviour:
   m_ObjectHideFlags: 0
