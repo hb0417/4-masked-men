@@ -4,6 +4,8 @@ public class GameManager : MonoBehaviour
 {
     private static GameManager instance;
     public ObjectPool ObjectPool { get; private set; }
+    public Transform hitTextSpawnPosition;
+
     public static GameManager Instance
     {
         get
@@ -41,5 +43,17 @@ public class GameManager : MonoBehaviour
     {
         get { return boss; }
         set { boss = value; }
+    }
+
+    public void OnHitText(float Atk)
+    {
+        HitTextSpawn(Atk);
+    }
+
+    private void HitTextSpawn(float value)
+    {
+        GameObject text = ObjectPool.SpawnFromPool("HitText");
+        HitText hitText = text.GetComponent<HitText>();
+        hitText.HitTextEnter(value);
     }
 }

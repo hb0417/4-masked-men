@@ -15,6 +15,7 @@ public class ObjectPool : MonoBehaviour
     public List<Pool> pools = new List<Pool>();
     public Dictionary<string, Queue<GameObject>> PoolDIctionary;
 
+
     private void Awake()
     {
         PoolDIctionary = new Dictionary<string, Queue<GameObject>>();
@@ -24,7 +25,16 @@ public class ObjectPool : MonoBehaviour
             Queue<GameObject> queue = new Queue<GameObject>();
             for (int i = 0; i < pool.size; i++)
             {
-                GameObject obj = Instantiate(pool.prefab, transform);
+                GameObject obj;
+                if (pool.tag == "HitText")
+                {
+                    obj = Instantiate(pool.prefab, GameManager.Instance.hitTextSpawnPosition);
+                }
+                else
+                {
+                    obj = Instantiate(pool.prefab, transform);
+                }
+
                 obj.SetActive(false);
                 queue.Enqueue(obj);
             }
