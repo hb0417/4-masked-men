@@ -7,6 +7,20 @@ using UnityEngine;
 
 public class Util : MonoBehaviour
 {
+    static Util _instance;
+
+    public static Util Instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                _instance = new Util();
+            }
+            return _instance;
+        }
+    }
+
     public bool RandomPercent(float percent)
     {
         bool result;
