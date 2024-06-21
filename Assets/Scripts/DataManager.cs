@@ -13,7 +13,6 @@ public class DataManager : MonoBehaviour
     public List<Sprite> sprites;
 
     [Header("Boss")]
-    
 
     private static DataManager _instance;
     public static DataManager Instance

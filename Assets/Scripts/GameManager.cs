@@ -40,17 +40,5 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
-    }
-
-    private void Start()
-    {
-        StartCoroutine(GoldMark());
-    }
-    IEnumerator GoldMark()
-    {
-
-        yield return null;
-        StartCoroutine(GoldMark());
     }
 }

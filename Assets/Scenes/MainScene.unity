@@ -1686,6 +1686,7 @@ GameObject:
   - component: {fileID: 2042819790}
   - component: {fileID: 2042819789}
   - component: {fileID: 2042819788}
+  - component: {fileID: 2042819791}
   m_Layer: 5
   m_Name: MoneyUI
   m_TagString: Untagged
@@ -1726,7 +1727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 682f617b6a851dc45a26dbc3dffa3744, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moneyUI: {fileID: 2042819786}
+  util: {fileID: 0}
 --- !u!114 &2042819789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1765,6 +1766,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2042819786}
   m_CullTransparentMesh: 1
+--- !u!114 &2042819791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042819786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a208e42dac7a347b6936a6e84932cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -6,26 +6,16 @@ using UnityEngine;
 public class MoneyUI : MonoBehaviour
 {
     TMP_Text textMesh;
-    public GameObject moneyUI;
+    public Util util;
 
     void Awake()
     {
+        util = GetComponent<Util>();
         textMesh = transform.GetChild(0).GetComponent<TMP_Text>();
     }
 
     void Update()
     {
-        if (DataManager.Instance.money < 1000)
-        {
-            moneyUI.GetComponentInChildren<TMP_Text>().text = $"Gold:" + DataManager.Instance.money.ToString();
-        }
-        else if (DataManager.Instance.money >= 1000 && DataManager.Instance.money < 1000000)
-        {
-            moneyUI.GetComponentInChildren<TMP_Text>().text = $"Gold:" + (DataManager.Instance.money / 1000).ToString("F2") + "K";
-        }
-        else if (DataManager.Instance.money >= 1000000)
-        {
-            moneyUI.GetComponentInChildren<TMP_Text>().text = $"Gold:" + (DataManager.Instance.money / 1000000).ToString("F2") + "M";
-        }
+        textMesh.text = $"Gold: " + util.NumConversion(DataManager.Instance.money);
     }
 }
