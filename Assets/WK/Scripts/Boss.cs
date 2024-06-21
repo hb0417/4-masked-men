@@ -51,7 +51,7 @@ public class Boss : MonoBehaviour // WK
 
         if (i > 1)
         {
-            DataManager.Instance.images.Add(ReturnPicture());
+            DataManager.Instance.sprites.Add(ReturnPicture());
         }
     }
 
