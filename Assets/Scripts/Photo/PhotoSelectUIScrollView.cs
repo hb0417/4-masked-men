@@ -1,3 +1,4 @@
+using Assets.Scripts.Common;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,7 @@ using UnityEngine;
 public class PhotoSelectUIScrollView : MonoBehaviour
 {
     public PhotoUIMain main;
+    public PhotoSelectUI ui;
     public Transform contentsTrans;
     public GameObject photoPrefab;
     public GameObject photoFrame;
@@ -33,5 +35,6 @@ public class PhotoSelectUIScrollView : MonoBehaviour
         photoFrame = GameObject.Find($"Frame{selectPhotoID}").transform.Find("Photo").gameObject;
         photoFrame.SetActive(true);
         photoFrame.GetComponent<SpriteRenderer>().sprite = photoPrefab.photoSprite;
+        ui.SetActive(false);
     }
 }
