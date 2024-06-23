@@ -2,7 +2,7 @@ using System.Collections;
 using TMPro;
 using UnityEngine;
 
-public class HitText : MonoBehaviour
+public class HitText : MonoBehaviour // WK
 {
     //활성화
     //text 수정 
