@@ -11,7 +11,7 @@ public class BossManager : MonoBehaviour // WK
     private void Awake()
     {
         GameManager.Instance.Boss = this;
-        curBoss = Instantiate(bossPrefab);
+        curBoss = Instantiate(bossPrefab, GameManager.Instance.bossSpawnPosition.transform);
     }
 
     private void Start()

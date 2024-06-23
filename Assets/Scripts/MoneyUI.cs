@@ -14,6 +14,6 @@ public class MoneyUI : MonoBehaviour
 
     void Update()
     {
-        textMesh.text = $"Gold: " + Util.Instance.NumConversion(DataManager.Instance.money);
+        //textMesh.text = $"Gold: " + Util.Instance.NumConversion(DataManager.Instance.money);
     }
 }

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4430766898219246868}
   - component: {fileID: 2996986260638599265}
   m_Layer: 0
-  m_Name: PeSlottList
+  m_Name: PetSlotList
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b381b1e872ab6e4dad4bdbfd9475db6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  petSlot: {fileID: 0}
+  petSlot: {fileID: 5634827331045452408, guid: 0dd8e52075f8bf2419edb1aea90fc42e, type: 3}
   pets:
   - {fileID: 4416715807566072383, guid: 1c91292c3767bc5418023a91cf765b15, type: 3}
   - {fileID: 7011105677922089535, guid: dbc4d378df4717a46b865b888ef6ab6b, type: 3}

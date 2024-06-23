@@ -44,9 +44,10 @@ public class DataManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        test = GameObject.Find("Test").GetComponent<Test>();
+
+        //test = GameObject.Find("Test").GetComponent<Test>();
         sprites = new List<Sprite>();
-        test.Give();
+        //test.Give();
     }
 }
 public class ItemData

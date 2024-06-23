@@ -15,6 +15,9 @@ public class HitText : MonoBehaviour
     [SerializeField] private TextMeshProUGUI hitTxt;
     private Transform spawnPosition;
 
+    private float ranNumX;
+    private float ranNumY;
+
     private void Awake()
     {
         spawnPosition = GetComponent<Transform>();
@@ -31,10 +34,10 @@ public class HitText : MonoBehaviour
 
     private void TextRandomPosition()
     {
-        float ranNumX = Random.Range(0f, 3f);
-        float ranNumY = Random.Range(-3f, 3f);
+        ranNumX = Random.Range(0f, 3f);
+        ranNumY = Random.Range(-3f, 3f);
 
-        spawnPosition.localPosition = new Vector3(ranNumX, ranNumY, 1);
+        spawnPosition.localPosition = new Vector2(ranNumX, ranNumY);
     }
 
     private void ChangeText(float value)
