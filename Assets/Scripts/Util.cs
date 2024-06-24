@@ -1,28 +1,38 @@
+using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Networking;
 
 public class Util : MonoBehaviour 
 {
-    static Util _instance;
-
-    private void Awake()
-    {
-        if(_instance == null)
-        {
-            _instance = this;
-        }
-    }
-
+    private static Util _instance;
     public static Util Instance
     {
         get
         {
             if (_instance == null)
             {
-                return null;
+                _instance = FindObjectOfType<Util>();
+                if (_instance == null)
+                {
+                    GameObject go = new GameObject("Util");
+                    _instance = go.AddComponent<Util>();
+                }
             }
             return _instance;
+        }
+    }
+
+    private void Awake()
+    {
+        if (_instance == null)
+        {
+            _instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else if (_instance != this)
+        {
+            Destroy(gameObject);
         }
     }
 
