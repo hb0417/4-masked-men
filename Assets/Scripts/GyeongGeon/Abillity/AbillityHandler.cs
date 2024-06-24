@@ -56,17 +56,17 @@ public class AbillityHandler : MonoBehaviour
 
     void ChangeName()
     {
-        this.gameObject.transform.GetChild(2).transform.GetComponent<TextMeshProUGUI>().text = abillity.abillitySO.abillityName;
+        this.gameObject.transform.GetChild(2).transform.GetComponent<TextMeshProUGUI>().text = abillity.abillitySO.abillityName + $"\nLV : " + abillity.abillitySO.level.ToString() + $"\nDMG : " + abillity.abillitySO.currentValue.ToString();
     }
 
     void ChangeLevel()
     {
-        this.gameObject.transform.GetChild(3).transform.GetComponent<TextMeshProUGUI>().text = abillity.abillitySO.level.ToString();
+        //this.gameObject.transform.GetChild(3).transform.GetComponent<TextMeshProUGUI>().text = $"LV : " + abillity.abillitySO.level.ToString()+"\n"+$"DMG : " + abillity.abillitySO.currentValue.ToString();
     }
 
     void ChangeEffect()
     {
-        this.gameObject.transform.GetChild(4).transform.GetComponent<TextMeshProUGUI>().text = abillity.abillitySO.currentValue.ToString();
+        //this.gameObject.transform.GetChild(4).transform.GetComponent<TextMeshProUGUI>().text = $"DMG : " + abillity.abillitySO.currentValue.ToString();
     }
 
 
