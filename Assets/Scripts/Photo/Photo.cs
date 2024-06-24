@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Photo : MonoBehaviour //HSW
 {
-    public GameObject PhotoUI;
+    public GameObject ACTUI;
     public PhotoUIMain main;
     public int selectPhotoID;
 
@@ -15,10 +15,10 @@ public class Photo : MonoBehaviour //HSW
             main = GameObject.Find("PhotoUIMain").GetComponent<PhotoUIMain>();
         }
         main.selectPhotoID = selectPhotoID;
-        PhotoUI.SetActive(true);
+        ACTUI.SetActive(true);
     }
     public void Close()
     {
-        PhotoUI.SetActive(false);
+        ACTUI.SetActive(false);
     }
 }
