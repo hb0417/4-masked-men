@@ -36,7 +36,7 @@ public class Util : MonoBehaviour
         }
     }
 
-    public bool RandomPercent(float percent)
+public bool RandomPercent(float percent)
     {
         bool result;
         percent /= 100f;
@@ -76,3 +76,4 @@ public class Util : MonoBehaviour
         return answer;
     }
 }
+
