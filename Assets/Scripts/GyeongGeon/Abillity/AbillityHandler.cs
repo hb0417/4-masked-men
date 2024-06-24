@@ -32,7 +32,7 @@ public class AbillityHandler : MonoBehaviour
 
     public void OnClickUpgrade()
     {
-        abillityEffect.EffectApply(abillity, playerStatHandler);
+        //abillityEffect.EffectApply(abillity, playerStatHandler);
     }
 
     void ChangeAbillity()

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class PetSlotList : MonoBehaviour
+public class PetSlotList : MonoBehaviour //WK
 {
     private Transform thisTransform;
 

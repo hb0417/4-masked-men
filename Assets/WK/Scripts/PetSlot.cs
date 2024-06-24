@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PetSlot : MonoBehaviour
+public class PetSlot : MonoBehaviour // WK
 {
     [HideInInspector] public Pet thisSlotPet;
 

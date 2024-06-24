@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
     public ObjectPool ObjectPool { get; private set; }
     public Transform hitTextSpawnPosition;
 
+    public GameObject bossSpawnPosition;
+
     public static GameManager Instance
     {
         get

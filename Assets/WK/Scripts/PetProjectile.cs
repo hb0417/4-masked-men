@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class PetProjectile : MonoBehaviour
+public class PetProjectile : MonoBehaviour // WK
 {
     private float projectilleDamage;
     [SerializeField]private float speed = 10f;

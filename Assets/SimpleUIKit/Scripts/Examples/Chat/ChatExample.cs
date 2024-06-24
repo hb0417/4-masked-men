@@ -136,19 +136,19 @@ namespace Assets.Scripts.Examples.Chat
 
             return; // STAB!!!
 
-            StartCoroutine(Coroutine(url, formData, webRequest =>
-            {
-                if (webRequest.error.IsEmpty())
-                {
-                    var response = JsonGeneric.FromJson<ServerResponse>(webRequest.downloadHandler.text);
+            //StartCoroutine(Coroutine(url, formData, webRequest =>
+            //{
+            //    if (webRequest.error.IsEmpty())
+            //    {
+            //        var response = JsonGeneric.FromJson<ServerResponse>(webRequest.downloadHandler.text);
 
-                    callback(response.Success, response.Error, response.Data);
-                }
-                else
-                {
-                    callback(false, webRequest.error, null);
-                }
-            }));
+            //        callback(response.Success, response.Error, response.Data);
+            //    }
+            //    else
+            //    {
+            //        callback(false, webRequest.error, null);
+            //    }
+            //}));
         }
 
         private IEnumerator Coroutine(string url, WWWForm formData, Action<UnityWebRequest> callback)

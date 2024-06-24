@@ -1,13 +1,18 @@
-using JetBrains.Annotations;
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class Util : MonoBehaviour
+public class Util : MonoBehaviour 
 {
     static Util _instance;
+
+    private void Awake()
+    {
+        if(_instance == null)
+        {
+            _instance = this;
+        }
+    }
 
     public static Util Instance
     {
@@ -15,7 +20,7 @@ public class Util : MonoBehaviour
         {
             if (_instance == null)
             {
-                _instance = new Util();
+                return null;
             }
             return _instance;
         }
