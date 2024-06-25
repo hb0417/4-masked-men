@@ -4,9 +4,9 @@ public class MainSoundManager : MonoBehaviour
 {
     public static MainSoundManager instance;
 
-    [SerializeField][Range(0f, 1f)] private float soundEffectVolume;
+    [Range(0f, 1f)] public float soundEffectVolume;
     [SerializeField][Range(0f, 1f)] private float soundEffectPitchVariance;
-    [SerializeField][Range(0f, 1f)] private float musicVolume;
+    [Range(0f, 1f)] public float musicVolume;
 
     private AudioSource musicAudioSource;
     public AudioClip musicClip;
@@ -29,6 +29,11 @@ public class MainSoundManager : MonoBehaviour
         instance.musicAudioSource.Stop();
         instance.musicAudioSource.clip = music;
         instance.musicAudioSource.Play();
+    }
+
+    public void ChangeBGMVolume()
+    {
+        musicAudioSource.volume = musicVolume;
     }
 
     public static void PlayClip(AudioClip clip)
