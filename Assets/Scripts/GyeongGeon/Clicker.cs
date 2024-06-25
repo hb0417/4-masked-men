@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class Clicker : MonoBehaviour
 {
+    public Animator animator;
     public PlayerStatHandler playerStatHandler;
 
     public float autoClickInterval = 1.0f; // 1초마다 자동 클릭
@@ -10,6 +11,7 @@ public class Clicker : MonoBehaviour
 
     private void Awake()
     {
+        animator = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
         playerStatHandler = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerStatHandler>();
     }
 
@@ -38,9 +40,7 @@ public class Clicker : MonoBehaviour
             GameManager.Instance.Boss.OnDmagable(playerStatHandler.CurrentStat.playerStatSO.tapDamage);
         }
 
-        Debug.Log(playerStatHandler.CurrentStat.playerStatSO.criticalMultiplier);
-        Debug.Log(playerStatHandler.CurrentStat.playerStatSO.criticalChance);
-
+        animator.SetTrigger("attack");
 
     }
 
