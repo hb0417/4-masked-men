@@ -48,8 +48,8 @@ public class BossManager : MonoBehaviour // WK
 
     private void CurBosssDie()
     {
-        NewSpawnBoss();
         curBoss.GetPicture();
+        NewSpawnBoss();
         photoSelectUIScrollView.Init();
     }
 }
