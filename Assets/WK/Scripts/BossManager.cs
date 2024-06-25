@@ -46,8 +46,7 @@ public class BossManager : MonoBehaviour // WK
 
     private void CurBosssDie()
     {
-            NewSpawnBoss();
-
-            // 아이템추가나 등등등 
+        NewSpawnBoss();
+        curBoss.GetPicture();    
     }
 }

@@ -1,10 +1,11 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
 public class BossReward // WK
 {
     public int dropGold;
-    public Sprite[] BossPicture; //보스 사진들
+    public List<Sprite> BossPicture; //보스 사진들
 }
 
 [CreateAssetMenu(fileName = "BossSO", menuName = "SO/NewBossDataSO")]
