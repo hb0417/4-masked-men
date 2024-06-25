@@ -67,7 +67,9 @@ public class Boss : MonoBehaviour // WK
         bossSpeechBubble.gameObject.SetActive(false);
         ChangeBossSpeech();
         bossSpeechBubble.gameObject.SetActive(true);
-        yield return null;
+
+        yield return new WaitForSeconds(0.8f); ;
+        bossSpeechBubble.gameObject.SetActive(false);
     }
 
     private void ChangeBossSpeech()

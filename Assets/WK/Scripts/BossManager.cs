@@ -37,6 +37,8 @@ public class BossManager : MonoBehaviour // WK
         float stemina = curBoss.BossDmagable(PlayerAtkDamage);
         //curBoss.TryGetPicture(); // 공격 할 때 랜덤으로 사진 얻기.
         GameManager.Instance.OnHitText(PlayerAtkDamage);
+        
+        curBoss.OnBossSpeech();
         if (stemina < 0)
         {
             CurBosssDie();
