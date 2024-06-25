@@ -34,16 +34,13 @@ public class BossManager : MonoBehaviour // WK
     
     public void OnDmagable(float PlayerAtkDamage) // 보스 체력 닳게 할 때 이 함수 쓰시면 됩니다.
     {
-        float stemina = curBoss.BossDmagable(PlayerAtkDamage);
-        //curBoss.TryGetPicture(); // 공격 할 때 랜덤으로 사진 얻기.
-        GameManager.Instance.OnHitText(PlayerAtkDamage);
-        
+        float stemina = curBoss.BossDmagable(PlayerAtkDamage);        
+        GameManager.Instance.OnHitText(PlayerAtkDamage);        
         curBoss.OnBossSpeech();
 
         if (stemina < 0)
         {
             CurBosssDie();
-            // 맞을 때 랜덤 대사 출력 
         }
     }
 
