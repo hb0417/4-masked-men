@@ -16,6 +16,7 @@ public class AttackUpgrade : IAbillityEffect
 
     void ChangeIncreaseAbillity(Abillity _abillity)
     {
+        DataManager.Instance.money -= _abillity.abillitySO.price;
         _abillity.abillitySO.currentValue += _abillity.abillitySO.increaseValue;
         _abillity.abillitySO.price += 10;
         _abillity.abillitySO.level += 1;
