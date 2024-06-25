@@ -39,6 +39,7 @@ public class BossManager : MonoBehaviour // WK
         GameManager.Instance.OnHitText(PlayerAtkDamage);
         
         curBoss.OnBossSpeech();
+
         if (stemina < 0)
         {
             CurBosssDie();
