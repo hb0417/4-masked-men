@@ -34,8 +34,8 @@ public class HitText : MonoBehaviour // WK
 
     private void TextRandomPosition()
     {
-        ranNumX = Random.Range(0f, 3f);
-        ranNumY = Random.Range(-3f, 3f);
+        ranNumX = Random.Range(0f, 300f);
+        ranNumY = Random.Range(0f, 450f);
 
         spawnPosition.localPosition = new Vector2(ranNumX, ranNumY);
     }
