@@ -459,6 +459,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3085377037148281926, guid: 76a827a1fa62ed4499e07e451469cfc3, type: 3}
+      propertyPath: sceneName
+      value: NameScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 7367298233506527357, guid: 76a827a1fa62ed4499e07e451469cfc3, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 628627701}
+    - target: {fileID: 7367298233506527357, guid: 76a827a1fa62ed4499e07e451469cfc3, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
