@@ -36,6 +36,14 @@ public class GameManager : MonoBehaviour
         set { boss = value; }
     }
 
+    private Upgrade upgrade;
+
+    public Upgrade Upgrade
+    {
+        get { return upgrade; }
+        set { upgrade = value; }
+    }
+
     private void Awake()
     {
         ObjectPool = GetComponent<ObjectPool>();

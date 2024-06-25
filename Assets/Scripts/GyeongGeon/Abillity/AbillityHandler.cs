@@ -19,15 +19,24 @@ public class AbillityHandler : MonoBehaviour
         {
             case "AttackUpgrade":
                 abillityEffect = new AttackUpgrade();
-            break;
+                break;
+            case "DoubleAttackUpgrade":
+                abillityEffect = new DoubleAttackUpgrade();
+                break;
+            case "CriticalChanceUpgrade":
+                abillityEffect = new CriticalChanceUpgrade();
+                break;
+            case "CriticalMultipleUpgrade":
+                abillityEffect = new CriticalMultipleUpgrade();
+                break;
         }
 
-        ChangeAbillity();
+        ChangeViewAbillity();
     }
 
     private void Update() 
     {
-        ChangeAbillity();
+        ChangeViewAbillity();
     }
 
     public void OnClickUpgrade()
@@ -35,13 +44,11 @@ public class AbillityHandler : MonoBehaviour
         abillityEffect.EffectApply(abillity, playerStatHandler);
     }
 
-    void ChangeAbillity()
+    void ChangeViewAbillity()
     {
         ChangeImage();
         ChangePrice();
-        ChangeName();
-        ChangeLevel();
-        ChangeEffect();
+        ChangeInfo();
     }
 
     void ChangeImage()
@@ -54,9 +61,9 @@ public class AbillityHandler : MonoBehaviour
         this.gameObject.transform.GetChild(1).transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = abillity.abillitySO.price.ToString();
     }
 
-    void ChangeName()
+    void ChangeInfo()
     {
-        this.gameObject.transform.GetChild(2).transform.GetComponent<TextMeshProUGUI>().text = abillity.abillitySO.abillityName + $"\nLV : " + abillity.abillitySO.level.ToString() + $"\nDMG : " + abillity.abillitySO.currentValue.ToString();
+        this.gameObject.transform.GetChild(2).transform.GetComponent<TextMeshProUGUI>().text = abillity.abillitySO.abillityName + $"\nLV : " + abillity.abillitySO.level.ToString() + $"\nCurVal : " + abillity.abillitySO.currentValue.ToString();
     }
 
     void ChangeLevel()
