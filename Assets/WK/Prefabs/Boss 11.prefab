@@ -751,6 +751,7 @@ MonoBehaviour:
   bossHealthBar: {fileID: 4182729374636986450}
   circleSprite: {fileID: -2413806693520163455, guid: 202595a041302b84681fdb76a0444246, type: 3}
   hitanimator: {fileID: 4166072504091074858}
+  HitClip: {fileID: 8300000, guid: 1340c90949c97794a8315a9045a47e41, type: 3}
 --- !u!1 &5670247155638247100
 GameObject:
   m_ObjectHideFlags: 0

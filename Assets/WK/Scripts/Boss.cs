@@ -26,6 +26,7 @@ public class Boss : MonoBehaviour // WK
     [SerializeField] private Sprite circleSprite; // 게임 클리어 후에 나올 보스이미지
 
     [SerializeField] private Animator hitanimator;
+    [SerializeField] private AudioClip HitClip;
 
     public void CreateBoss(BossDataSO SO)
     {
@@ -94,6 +95,8 @@ public class Boss : MonoBehaviour // WK
     {
         curBossStemina -= PlayerAtkDmage;
         UpdateHealthBar();
+        if (HitClip) MainSoundManager.PlayClip(HitClip);
+
         return curBossStemina;
     }
 
