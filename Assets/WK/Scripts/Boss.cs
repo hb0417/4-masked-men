@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class Boss : MonoBehaviour // WK
 {
+    private static readonly int BossHit = Animator.StringToHash("BossHit");
+
     private int randomNum;
 
     private float baseBossStemina;
@@ -23,6 +25,7 @@ public class Boss : MonoBehaviour // WK
 
     [SerializeField] private Sprite circleSprite; // 게임 클리어 후에 나올 보스이미지
 
+    [SerializeField] private Animator hitanimator;
 
     public void CreateBoss(BossDataSO SO)
     {
@@ -40,6 +43,11 @@ public class Boss : MonoBehaviour // WK
         bossImage.color = GetRandomColor(); // 랜덤컬러함수
 
         bossNameTxt.text = "게임 클리어"; // 보스이름
+    }
+
+    public void OnBossHitAnim()
+    {
+        IsBossHit();
     }
 
     public void OnBossSpeech() // 보스 말풍선 시작
@@ -115,5 +123,10 @@ public class Boss : MonoBehaviour // WK
             return curSO.reward.BossPicture[i];
         }
         else return null;
+    }
+
+    private void IsBossHit()
+    {
+        hitanimator.SetTrigger(BossHit);
     }
 }

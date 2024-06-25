@@ -34,8 +34,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.022, y: -0.075}
-  m_SizeDelta: {x: 0.3, y: 0.1}
+  m_AnchoredPosition: {x: -0.0063, y: -0.06847}
+  m_SizeDelta: {x: 0.4154, y: 0.08694}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2846966716587443284
 CanvasRenderer:
@@ -750,6 +750,7 @@ MonoBehaviour:
   bossSpeechTxt: {fileID: 7507447919965116326}
   bossHealthBar: {fileID: 4182729374636986450}
   circleSprite: {fileID: -2413806693520163455, guid: 202595a041302b84681fdb76a0444246, type: 3}
+  hitanimator: {fileID: 4166072504091074858}
 --- !u!1 &5670247155638247100
 GameObject:
   m_ObjectHideFlags: 0
