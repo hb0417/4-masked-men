@@ -40,7 +40,7 @@ public class BossManager : MonoBehaviour // WK
     
     public void OnDmagable(float PlayerAtkDamage) // 보스 체력 닳게 할 때 이 함수 쓰시면 됩니다.
     {
-        float stemina = curBoss.BossDmagable(PlayerAtkDamage);        
+        float stemina = curBoss.BossDmagable(PlayerAtkDamage);
         GameManager.Instance.OnHitText(PlayerAtkDamage);        
         curBoss.OnBossSpeech();
 

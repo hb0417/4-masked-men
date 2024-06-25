@@ -15,6 +15,9 @@ public class DataManager : MonoBehaviour
 
     [Header("Boss")]
 
+    [Header("Player")]
+    public string playerName = "";
+
     private static DataManager _instance;
     public static DataManager Instance
     {
@@ -48,6 +51,11 @@ public class DataManager : MonoBehaviour
         //test = GameObject.Find("Test").GetComponent<Test>();
         sprites = new List<Sprite>();
         //test.Give();
+    }
+
+    public void NameSet(string name)
+    {
+        playerName = name;
     }
 }
 public class ItemData

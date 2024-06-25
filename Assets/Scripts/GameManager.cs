@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject bossSpawnPosition;
     public int photoPrefabID;
+    
 
     public static GameManager Instance
     {
@@ -22,14 +23,11 @@ public class GameManager : MonoBehaviour
                 {
                     GameObject go = new GameObject("GameManager");
                     instance = go.AddComponent<GameManager>();
-                    go.AddComponent<ObjectPool>();
-                    go.AddComponent<BossManager>();
                 }
             }
             return instance;
         }
     }
-
 
     private BossManager boss;
 
@@ -54,11 +52,7 @@ public class GameManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else if (instance != this)
-        {
-            Destroy(gameObject);
+
         }
     }
 
@@ -73,4 +67,5 @@ public class GameManager : MonoBehaviour
         HitText hitText = text.GetComponent<HitText>();
         hitText.HitTextEnter(value);
     }
+
 }
