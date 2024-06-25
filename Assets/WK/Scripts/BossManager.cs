@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using static BossManager;
 
 public class BossManager : MonoBehaviour // WK
 {
@@ -51,6 +52,9 @@ public class BossManager : MonoBehaviour // WK
     {
         NewSpawnBoss();
         curBoss.GetPicture();
-        killBoss(DataManager.Instance.sprites.Count-1);
+        if (killBoss != null)
+        {
+            killBoss(DataManager.Instance.sprites.Count - 1);
+        }
     }
 }
