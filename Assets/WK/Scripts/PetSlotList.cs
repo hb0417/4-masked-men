@@ -19,5 +19,7 @@ public class PetSlotList : MonoBehaviour //WK
                 petSlot.thisSlotPet = pets[i];
             }
         }
+
+        //gameObject.SetActive(false);
     }
 }
