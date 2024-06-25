@@ -1,4 +1,5 @@
 using Assets.Scripts.Common;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,7 +17,8 @@ public class PhotoSelectUIScrollView : MonoBehaviour
 
     public void Init()
     {
-        if(DataManager.Instance.sprites.Count != 0)
+        GameManager.Instance.Boss.killBoss += AddPhoto;
+        if (DataManager.Instance.sprites.Count != 0)
         {
             for(int i = 0;i < DataManager.Instance.sprites.Count; i++)
             {

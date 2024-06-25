@@ -7,6 +7,9 @@ public class BossManager : MonoBehaviour // WK
     [SerializeField] private BossDataSO[] bossDataSOs;
     [SerializeField] private Boss bossPrefab;
     [HideInInspector] public Boss curBoss;
+    public delegate void OnKillBoss(int index);
+
+    public OnKillBoss killBoss;
 
     private void Awake()
     {
@@ -48,5 +51,6 @@ public class BossManager : MonoBehaviour // WK
     {
         NewSpawnBoss();
         curBoss.GetPicture();
+        killBoss(DataManager.Instance.sprites.Count-1);
     }
 }
