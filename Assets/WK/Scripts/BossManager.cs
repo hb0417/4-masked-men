@@ -10,11 +10,13 @@ public class BossManager : MonoBehaviour // WK
     public delegate void OnKillBoss(int index);
 
     public OnKillBoss killBoss;
+    public PhotoSelectUIScrollView photoSelectUIScrollView;
 
     private void Awake()
     {
         GameManager.Instance.Boss = this;
         curBoss = Instantiate(bossPrefab, GameManager.Instance.bossSpawnPosition.transform);
+        photoSelectUIScrollView = new PhotoSelectUIScrollView();
     }
 
     private void Start()
@@ -31,6 +33,7 @@ public class BossManager : MonoBehaviour // WK
         }
         else
         {
+            photoSelectUIScrollView.BossDie();
             curBoss.ClearCreateBoss(); // 만들어둔 보스 다 잡히면 기본도형 보스 나오게 함.
         }
     }

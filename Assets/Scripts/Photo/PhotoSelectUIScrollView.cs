@@ -49,4 +49,9 @@ public class PhotoSelectUIScrollView : MonoBehaviour
         photoFrame.GetComponent<Image>().sprite = photoPrefab.photoSprite;
         ui.SetActive(false);
     }
+
+    public void BossDie()
+    {
+        GameManager.Instance.Boss.killBoss -= AddPhoto;
+    }
 }
