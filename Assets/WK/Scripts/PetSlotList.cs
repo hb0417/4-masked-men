@@ -16,7 +16,7 @@ public class PetSlotList : MonoBehaviour //WK
             for (int i = 0; i < pets.Length; i++)
             {
                 PetSlot newSlot = Instantiate(petSlot, thisTransform);
-                petSlot.thisSlotPet = pets[i];
+                newSlot.thisSlotPet = pets[i];
             }
         }
     }

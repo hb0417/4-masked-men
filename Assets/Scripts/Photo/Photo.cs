@@ -12,7 +12,7 @@ public class Photo : MonoBehaviour //HSW
     {
         if (main == null)
         {
-            main = GameObject.Find("PhotoUIMain").GetComponent<PhotoUIMain>();
+            main = GameObject.Find("UIMain").transform.Find("PhotoUIMain").GetComponent<PhotoUIMain>();
         }
         main.selectPhotoID = selectPhotoID;
         ACTUI.SetActive(true);

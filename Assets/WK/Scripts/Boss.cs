@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -22,6 +23,7 @@ public class Boss : MonoBehaviour // WK
 
     [SerializeField] private Sprite circleSprite; // 게임 클리어 후에 나올 보스이미지
 
+
     public void CreateBoss(BossDataSO SO)
     {
         curSO = SO;
@@ -42,15 +44,14 @@ public class Boss : MonoBehaviour // WK
 
     public void OnBossSpeech() // 보스 말풍선 시작
     {
+        int a = Random.Range(0, 10);
+        if (a > 4) return;
         StartCoroutine(OnBossSpeechBubble());
     }
 
-    public void TryGetPicture()
+    public void GetPicture()
     {
-        if (Util.Instance.RandomPercent(0.1f))
-        {
-            DataManager.Instance.sprites.Add(ReturnPicture());
-        }
+        DataManager.Instance.sprites.Add(ReturnPicture());
     }
 
     private void BossDataEnter() // 보스 데이터 초기화
@@ -67,7 +68,9 @@ public class Boss : MonoBehaviour // WK
         bossSpeechBubble.gameObject.SetActive(false);
         ChangeBossSpeech();
         bossSpeechBubble.gameObject.SetActive(true);
-        yield return null;
+
+        yield return new WaitForSeconds(0.8f); ;
+        bossSpeechBubble.gameObject.SetActive(false);
     }
 
     private void ChangeBossSpeech()
@@ -106,8 +109,11 @@ public class Boss : MonoBehaviour // WK
 
     private Sprite ReturnPicture()
     {
-        int i = Random.Range(0, curSO.reward.BossPicture.Length); // 랜덤 한 사진 보내줌. // 나중에 처치보상으로 얻는 사진은 얻지 못 하게 하는 코드 추가.
-        if(curSO != null) return curSO.reward.BossPicture[i];
+        if (curSO != null)
+        {
+            int i = Random.Range(0, curSO.reward.BossPicture.Count); // 랜덤 한 사진 보내줌. // 나중에 처치보상으로 얻는 사진은 얻지 못 하게 하는 코드 추가.
+            return curSO.reward.BossPicture[i];
+        }
         else return null;
     }
 }
