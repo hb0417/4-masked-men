@@ -3,6 +3,7 @@
 public class BossManager : MonoBehaviour // WK
 {
     private int bossSpawnCount = 0;
+    private PhotoSelectUIScrollView photoSelectUIScrollView;
 
     [SerializeField] private BossDataSO[] bossDataSOs;
     [SerializeField] private Boss bossPrefab;
@@ -12,6 +13,7 @@ public class BossManager : MonoBehaviour // WK
     {
         GameManager.Instance.Boss = this;
         curBoss = Instantiate(bossPrefab, GameManager.Instance.bossSpawnPosition.transform);
+        photoSelectUIScrollView = new PhotoSelectUIScrollView();
     }
 
     private void Start()
@@ -47,6 +49,7 @@ public class BossManager : MonoBehaviour // WK
     private void CurBosssDie()
     {
         NewSpawnBoss();
-        curBoss.GetPicture();    
+        curBoss.GetPicture();
+        photoSelectUIScrollView.Init();
     }
 }
