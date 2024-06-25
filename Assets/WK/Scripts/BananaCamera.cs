@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BananaCamera : MonoBehaviour
+public class BananaCamera : MonoBehaviour // WK
 {
     private int clickCnt;
     [SerializeField] private Text bananaText;
