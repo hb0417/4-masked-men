@@ -14,8 +14,8 @@ public class PhotoPrefab : MonoBehaviour
 
     public void Start()
     {
-        photoNum = int.Parse(DataManager.Instance.sprites[photoNum].name);
-        photoSprite = DataManager.Instance.sprites[photoNum - 1];
-        btnPhoto.GetComponentInChildren<TMP_Text>().text = $"  Num.{photoNum}";
+        photoNum = DataManager.Instance.sprites.Count - 1;
+        photoSprite = DataManager.Instance.sprites[photoNum];
+        btnPhoto.GetComponentInChildren<TMP_Text>().text = $"  Num.{photoNum + 1}";
     }
 }

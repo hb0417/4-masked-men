@@ -16,25 +16,28 @@ public class PhotoSelectUIScrollView : MonoBehaviour
 
     public void Init()
     {
-        //목록에 있는 거 생성
-        for (int i = 0; i < DataManager.Instance.sprites.Count; i++)
+        if(DataManager.Instance.sprites.Count != 0)
         {
+            //목록에 사진 생성
             this.AddPhoto();
         }
     }
+
     public void AddPhoto()
     {
         var go = Instantiate(this.photoPrefab, this.contentsTrans);
         PhotoPrefab photo = go.GetComponent<PhotoPrefab>();
-        photo.btnPhoto.onClick.AddListener(() => {
+        photo.btnPhoto.onClick.AddListener(() =>
+        {
             SpriteChange(photo);
         });
     }
 
+    //밖에 보이는 사진 수정
     public void SpriteChange(PhotoPrefab photoPrefab)
     {
         selectPhotoID = main.selectPhotoID;
-        photoFrame = totalFrame.transform.GetChild(selectPhotoID-1).transform.GetChild(0).gameObject;
+        photoFrame = totalFrame.transform.GetChild(selectPhotoID - 1).transform.GetChild(0).gameObject;
         photoFrame.SetActive(true);
         photoFrame.GetComponent<Image>().sprite = photoPrefab.photoSprite;
         ui.SetActive(false);
