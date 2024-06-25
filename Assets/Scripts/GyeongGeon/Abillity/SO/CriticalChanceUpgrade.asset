@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f94e1dc5bb586d43b2c0c8b42b678e1, type: 3}
-  m_Name: test
+  m_Name: CriticalChanceUpgrade
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: b6a21285d376d01458d6d14806add091, type: 3}
-  abillityName: test
-  explanation: test
-  price: 200
-  level: 22
-  currentValue: 22
-  increaseValue: 2
+  sprite: {fileID: 21300000, guid: 82425bd2fb044c94e8b697ebeb87fbc9, type: 3}
+  abillityName: CriticalChanceUpgrade
+  explanation: CriticalChanceUpgrade
+  price: 10000
+  level: 1
+  currentValue: 0
+  increaseValue: 1

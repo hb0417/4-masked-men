@@ -27,7 +27,7 @@ public class ContainerHandler : MonoBehaviour
 
     void SetSizeContainer(int _size)
     {
-        rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 45*(_size));
+        rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 100*(_size));
     }
 
     void SetAbillitySO(GameObject _generationObj,AbillitySO _abillitySO)

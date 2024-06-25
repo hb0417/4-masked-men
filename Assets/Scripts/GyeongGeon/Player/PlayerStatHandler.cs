@@ -10,6 +10,8 @@ public class PlayerStatHandler : MonoBehaviour
     public List<PlayerStat> statsModifiers = new List<PlayerStat>();
 
     private readonly float MinTapDamage = 1.0f;
+    private readonly float MincriticalMultiplier = 1.0f;
+    private readonly float MincriticalChance = 1.0f;
 
     private void Awake()
     {
@@ -67,6 +69,8 @@ public class PlayerStatHandler : MonoBehaviour
         var newStatSO = playerStat.playerStatSO;
 
         currentStatSO.tapDamage = Mathf.Max(operation(currentStatSO.tapDamage, newStatSO.tapDamage), MinTapDamage);
+        currentStatSO.criticalMultiplier = Mathf.Max(operation(currentStatSO.criticalMultiplier, newStatSO.criticalMultiplier), MincriticalMultiplier);
+        currentStatSO.criticalChance = Mathf.Max(operation(currentStatSO.criticalChance, newStatSO.criticalChance), MincriticalChance);
     }
 
 }

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class AttackUpgrade : IAbillityEffect
+public class DoubleAttackUpgrade : IAbillityEffect
 {
     public void EffectApply(Abillity abillity, PlayerStatHandler playerStatHandler)
     {
@@ -18,8 +18,8 @@ public class AttackUpgrade : IAbillityEffect
     {
         DataManager.Instance.money -= _abillity.abillitySO.price;
         _abillity.abillitySO.currentValue += _abillity.abillitySO.increaseValue;
-        _abillity.abillitySO.price += 10;
+        _abillity.abillitySO.price += 100;
         _abillity.abillitySO.level += 1;
-        _abillity.abillitySO.increaseValue += 1;
+        _abillity.abillitySO.increaseValue += 10;
     }
 }
