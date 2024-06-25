@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour
                 {
                     GameObject go = new GameObject("GameManager");
                     instance = go.AddComponent<GameManager>();
+                    go.AddComponent<ObjectPool>();
+                    go.AddComponent<BossManager>();
                 }
             }
             return instance;
