@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public Transform hitTextSpawnPosition;
 
     public GameObject bossSpawnPosition;
+    public int photoPrefabID;
 
     public static GameManager Instance
     {
