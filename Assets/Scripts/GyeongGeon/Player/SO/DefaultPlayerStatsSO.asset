@@ -13,3 +13,5 @@ MonoBehaviour:
   m_Name: DefaultPlayerStatsSO
   m_EditorClassIdentifier: 
   tapDamage: 20000
+  criticalMultiplier: 1.5
+  criticalChance: 10

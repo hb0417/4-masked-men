@@ -26,7 +26,29 @@ public class Clicker : MonoBehaviour
 
     public void OnClick()
     {
-        DataManager.Instance.money += playerStatHandler.CurrentStat.playerStatSO.tapDamage;
-        GameManager.Instance.Boss.OnDmagable(playerStatHandler.CurrentStat.playerStatSO.tapDamage);
+
+        if (IsCriticalHit())
+        {
+            DataManager.Instance.money += playerStatHandler.CurrentStat.playerStatSO.tapDamage * playerStatHandler.CurrentStat.playerStatSO.criticalMultiplier;
+            GameManager.Instance.Boss.OnDmagable(playerStatHandler.CurrentStat.playerStatSO.tapDamage * playerStatHandler.CurrentStat.playerStatSO.criticalMultiplier);
+        }
+        else
+        {
+            DataManager.Instance.money += playerStatHandler.CurrentStat.playerStatSO.tapDamage;
+            GameManager.Instance.Boss.OnDmagable(playerStatHandler.CurrentStat.playerStatSO.tapDamage);
+        }
+
+        Debug.Log(playerStatHandler.CurrentStat.playerStatSO.criticalMultiplier);
+        Debug.Log(playerStatHandler.CurrentStat.playerStatSO.criticalChance);
+
+
+    }
+
+    public bool IsCriticalHit()
+    {
+        float randomValue = Random.value;
+        float criticalChance = playerStatHandler.CurrentStat.playerStatSO.criticalChance / 100;
+
+        return randomValue < criticalChance;
     }
 }

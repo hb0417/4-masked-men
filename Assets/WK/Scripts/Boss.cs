@@ -45,7 +45,7 @@ public class Boss : MonoBehaviour // WK
     public void OnBossSpeech() // 보스 말풍선 시작
     {
         int a = Random.Range(0, 10);
-        if (a > 4) return;
+        if (a > 2) return;
         StartCoroutine(OnBossSpeechBubble());
     }
 
@@ -69,7 +69,7 @@ public class Boss : MonoBehaviour // WK
         ChangeBossSpeech();
         bossSpeechBubble.gameObject.SetActive(true);
 
-        yield return new WaitForSeconds(0.8f); ;
+        yield return new WaitForSeconds(0.4f); ;
         bossSpeechBubble.gameObject.SetActive(false);
     }
 

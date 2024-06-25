@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f94e1dc5bb586d43b2c0c8b42b678e1, type: 3}
   m_Name: AttackUpgrade
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: 14c69e81874814b4d9e8c8cec1fd35e0, type: 3}
+  sprite: {fileID: 21300000, guid: 163c461908f2b624bb9b07bbabf6cec4, type: 3}
   abillityName: AttackUpgrade
-  explanation: ' Upgrade attack power'
-  price: 100
-  level: 0
+  explanation: AttackUpgrade
+  price: 10
+  level: 1
   currentValue: 0
   increaseValue: 1

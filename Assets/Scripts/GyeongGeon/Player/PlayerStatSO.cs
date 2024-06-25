@@ -4,4 +4,6 @@ using UnityEngine;
 public class PlayerStatSO : ScriptableObject
 {
     public float tapDamage;
+    public float criticalMultiplier;
+    public float criticalChance;
 }
