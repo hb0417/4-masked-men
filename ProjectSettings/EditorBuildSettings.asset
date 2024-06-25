@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Scens_HB_intro.unity
+    guid: 09945032313d7ef4bbfd4853cc1e06c4
+  - enabled: 1
+    path: Assets/Scenes/Scens_HB_main.unity
+    guid: e65442cf2c82ce74db2b61d53aca2cd9
+  - enabled: 1
+    path: Assets/Scenes/Scens_HB_collection.unity
+    guid: ab8b6cf482d6e794eb47cd57daa9423a
   m_configObjects: {}
