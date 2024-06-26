@@ -13,7 +13,16 @@ public class MainSoundManager : MonoBehaviour
 
     private void Awake()
     {
-        instance = this;
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else if (instance != this)
+        {
+            Destroy(gameObject);
+        }
+
         musicAudioSource = GetComponent<AudioSource>();
         musicAudioSource.volume = musicVolume;
         musicAudioSource.loop = true;
