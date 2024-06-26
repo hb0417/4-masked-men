@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using TMPro;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -10,7 +9,8 @@ public class GameManager : MonoBehaviour
 
     public GameObject bossSpawnPosition;
     public int photoPrefabID;
-    
+
+    [SerializeField] private GameObject getText;
 
     public static GameManager Instance
     {
@@ -68,4 +68,21 @@ public class GameManager : MonoBehaviour
         hitText.HitTextEnter(value);
     }
 
+    public void GetTextOnOff()
+    {
+        StartCoroutine(GetTextOn());
+        StartCoroutine(GetTextOff());
+    }
+
+    private IEnumerator GetTextOn()
+    {
+        getText.SetActive(true);
+        yield return null;
+    }
+
+    private IEnumerator GetTextOff()
+    {
+        yield return new WaitForSeconds(1.5f);
+        getText.SetActive(false);
+    }
 }

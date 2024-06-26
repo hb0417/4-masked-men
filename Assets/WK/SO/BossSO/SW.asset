@@ -16,7 +16,6 @@ MonoBehaviour:
     dropGold: 20
     BossPicture:
     - {fileID: 21300000, guid: e2907c252e59e8044b36862319d0268b, type: 3}
-    - {fileID: 21300000, guid: 0285a78cdeb994a478fad25934a3106e, type: 3}
   bossName: "\uD64D\uC131\uC6B0"
   bossStemina: 4000000
   bossImage: {fileID: 21300000, guid: 89ad7d5fc6e0fc74dbb48b3121f4a743, type: 3}

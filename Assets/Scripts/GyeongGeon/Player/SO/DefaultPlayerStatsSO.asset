@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086ed3b937f7734488b9029d17583a16, type: 3}
   m_Name: DefaultPlayerStatsSO
   m_EditorClassIdentifier: 
-  tapDamage: 20000
+  tapDamage: 1000
   criticalMultiplier: 1.5
   criticalChance: 10
