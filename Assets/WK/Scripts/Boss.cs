@@ -1,3 +1,4 @@
+using Assets.Scripts.Common;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -36,6 +37,8 @@ public class Boss : MonoBehaviour // WK
 
     public void ClearCreateBoss() // 보스 다 잡히고 뒤에 계속 스폰 되는 보스,
     {
+        curSO = null;
+
         baseBossStemina *= 2; // 보스 잡힐 때마다 체력 그냥 2배처리
         curBossStemina = baseBossStemina;
 
@@ -60,6 +63,7 @@ public class Boss : MonoBehaviour // WK
 
     public void GetPicture()
     {
+        GameManager.Instance.GetTextOnOff();
         DataManager.Instance.sprites.Add(ReturnPicture());
     }
 
